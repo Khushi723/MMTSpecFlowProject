@@ -111,6 +111,7 @@ namespace MMTSpecFlowProject
             wait.Until(SeleniumExtras.WaitHelpers.ExpectedConditions.ElementToBeClickable(driver.FindElement(morningDepartureFilter)));
             driver.FindElement(morningDepartureFilter).Click();
             Console.WriteLine("hello");
+            Console.WriteLine("hello2");
         }
     }
 }
